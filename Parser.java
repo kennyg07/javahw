@@ -74,7 +74,7 @@ public class Parser {
             tok = l1.getNextToken();
             return true;
         }else {
-            System.out.println("not Identifier");
+            System.out.println("Not an Identifier");
         }
 
         return false;
